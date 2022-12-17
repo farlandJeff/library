@@ -50,7 +50,8 @@ table {
 /* Styling here */
 :root {
     --header-color: #0f0f0f;
-    --body-color: #1c1c1c;
+    --body-color: #242424;
+    --btn-hover: #1a1919;
 }
 
 .heading {
@@ -72,6 +73,13 @@ h1 {
 }
 
 button {
-    border-radius: 2rem;
+    border-radius: 1rem;
     font-size: 18px;
+    border: none;
+    color: white;
+    background-color: var(--body-color);
+    padding: 10px 20px;
+}
+body {
+    background-color: var(--body-color);
 }
