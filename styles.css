@@ -50,6 +50,7 @@ table {
 /* Styling here */
 :root {
     --header-color: #0f0f0f;
+    --body-color: #1c1c1c;
 }
 
 .heading {
