@@ -46,3 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Styling here */
+:root {
+    --header-color: #0f0f0f;
+}
+
+.heading {
+    background-color: var(--header-color);
+    width: 100%;
+}
+
+.heading-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px
+}
