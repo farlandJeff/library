@@ -1,11 +1,14 @@
 const modal = document.querySelector('.modal');
 const newBtn = document.querySelector('.new-btn');
+const closeBtn = document.querySelector('.close-form');
 
 newBtn.addEventListener('click', () => {
     modal.classList.add("active");
 });
 
-
+closeBtn.addEventListener('click', () => {
+    modal.classList.remove("active");
+});
 
 
 
