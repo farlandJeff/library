@@ -62,7 +62,7 @@ table {
 .heading-content {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px
 }
@@ -155,3 +155,10 @@ h2 {
     margin: 5px 0;
 }
 
+.checkbox-form {
+    margin-bottom: 15px;
+}
+
+form button {
+    width: 100%;
+}
