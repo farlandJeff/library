@@ -146,3 +146,12 @@ h2 {
     font-size: 22px;
     color: red;
 }
+
+.close-form:hover {
+    cursor: pointer;
+}
+
+.text-form input {
+    margin: 5px 0;
+}
+
